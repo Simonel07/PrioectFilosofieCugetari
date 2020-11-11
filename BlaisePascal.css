@@ -1,8 +1,4 @@
 body{
-  background-image: url('BackgroundAcasa.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
   padding-bottom: 0;
   margin: 0;
   display: flex;
@@ -32,12 +28,18 @@ body{
   margin-top: 0px;
 }
 
+#image_1{
+  background-image: url('BackgroundAcasa.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
 .content {
-  
   border-radius: 10px;
-  margin: 10px;
-  margin-top: 50px;
-  padding: 15px;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
   color: white;
 }
 
@@ -76,9 +78,15 @@ h2{
 }
 
 #tribute-info {
+  border-radius: 10px;
   font-size: 20px;
   font-family: Times;
-  margin: 70px;
+  margin: 0.1%;
+  color: #535353;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
 
 .info-title{
@@ -105,6 +113,7 @@ blockquote{
   text-align: left;
   display: block;
   max-width: 545px;
+  margin-bottom: 10%;
 }
 @media (max-width: 400px) {
   #image {
@@ -145,3 +154,19 @@ blockquote{
 .active {
   background-color: #4CAF50;
 }
+
+.bottom h3{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+#image_2 {
+  background-image: url('BackgroundAcasa.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  min-height: 100%;
+  background-position: center;
+}
+
