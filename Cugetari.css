@@ -64,3 +64,27 @@ body{
 .active {
   background-color: #4CAF50;
 }
+
+#quoteTitle {
+  margin-top: 10%;
+  color: white;
+}
+
+#quoteDisplay {
+  margin-top: 3%;
+  color: white;
+  text-align: center;
+}
+
+#buttonQuote {
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 100%;
+  margin-left: 47%;
+  margin-right: 47%;
+}
