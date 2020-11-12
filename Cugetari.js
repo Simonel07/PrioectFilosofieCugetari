@@ -11,7 +11,7 @@ var quotes = [
 	'44. Vrei ca lumea să gândească bine despre tine? Nu vorbi.',
 	'46. Autorul vorbelor de spirit are un caracter rău.',
 	'51. Sceptic în loc de îndărătnic.',
-
+//
 	'69. Infintul, media. Când citim prea repede sau prea încet, nu înțelegem nimic',
 	'84. Imaginația amplifică obiectele mici astfel încât să ne umple sufletele cu o percepere fantastică și cu o insolență impetuasă; micșorează măreția după mărimea ei, ca atunci când vorbește cu Dumnezeu.',
 	'102. Unele vicii pun stăpânire pe noi numai prin intermediul altora și acestea, asemenea ramurilor, cad odată cu retezarea trunchiului.',
@@ -35,7 +35,7 @@ var quotes = [
 	'157. Contradicție: disprețul față de existență, să mor degeaba, ura față de existență.',
 	'163. Vanitatea. Cauzele și efectele iubirii: Cleopatra',
 	'166. Distracția. Moartea este mai ușor de suportat fără să te gândești la ea, decât gândul la moarte în lipsa unui pericol.',
-
+//
 	'188. În fiecare dialog și discurs, trebuie să fim în stare să le spunem celor care se simt ofensați, "De ce anume vă plângeți?"',
 	'196. Oamenilor le lipsește inima; nu vor să se împrietenească cu ea.',
 	'198. Sensibilitatea omului față de nimicuri și insensibilitatea lui față de lucrurile mari, indică o ciudată inversiune.',
@@ -50,16 +50,16 @@ var quotes = [
 	'221. Ateii ar trebui să spună ce e absolut evident: nu este absolut evident că sufletul este material',
 	'224. Cât pot să urăsc neghiobia de a nu se crede în Euharistie etc.! Dacă Evangheliile sunt adevărate, dacă Iisus Hristos este Dumnezeu, care mai este dificultatea?',
 	'225. Ateismul dovedește puterea a minții, dar numai într-o anumită măsură.',
-	'228. Obiecția ateilor: "Dar nu avem lumină".'
+	'228. Obiecția ateilor: "Dar nu avem lumină".',
 	'232. Mișcarea infinită, punctul care umple totul, momentul de repaos; infintul fără cantitate indivizibil și infinit.',
 	'241. Ordinea. Mi-ar fi mult mai frică să nu greșesc și să constat că religia creștină are dreptate, decât sâ nu greșesc crezând că are dreptate.',
-
+//
 	'249. Să-ți pui speranțele în formalisme înseamnă supersitiție, dar înseamnă mândrie să nu fii dispus să te supui lor.',
 	'253. Două extreme: excluderea rațiunii, admiterea numai a rațiunii.',
 	'269. supunearea înseamnă folosirea rațiunii, în aceasta constă adevăratul creștinism.',
 	'272. Nu există nimic care să se conformeze atât de bine la rațiune ca această tăgăduire a rațiunii.',
 	'280. Cunoașterea lui Dumnezeu este foarte departe de iubirea pentru Dumnezeu.',
-
+//
 	'295. Al meu, al tău. "câinele ăsta e al meu", a spus copilul sărac, "acesta este locul meu sub soare". Iată începutul imaginii uzurpării pe tot pământul.',
 	'300. Când un om puternic înarmat își păzește averea, averea lui e în pace',
 	'305. Elvețienii sunt ofensați dacă li se spune gentilomi și se dovedesc a fi adevărații plebei pentru a fi considerați demni de o funcție înaltă.',
@@ -67,7 +67,7 @@ var quotes = [
 	'312. Justiție înseamnă ceea ce este instaurat; și astfel toate legile noastre instaurate vor fi considerate obligatoriu ca fiind juste, fără a fi cercetate, de vreme ce sunt instaurate.',
 	'321. Copii sunt uluiți când își văd tovarășii respectații.',
 	'336. Motivele efectelor. Trebuie să ne păstrăm secretă gândirea și să judecăm totul cu ea, vorbind însă asemena oamenilor.',
-
+//
 	'344. Instinct și rațiune, mărcile a două naturi.',
 	'345. Rațiunea ne poruncește mult mai imperios decât un stăpân; căci nesocotind-o pe prima suntem nenorociți și nesupunându-ne celui de-al doilea, suntem nebuni.',
 	'346. Gândirea este grandoarea omului.',
@@ -81,7 +81,7 @@ var quotes = [
 	'414. Omul este într-atât de necesar nebun, încât a nu mai fi nebun echivalează cu altă formă de nebunie.',
 	'419. Nu-l voi lăsa pe om să se bazeze pe el însuși sau pe altul, cu scopul de a-l lăsa fără un refugiu și fără odihnă',
 	'422. Este bine să fii obosit și plictisit de căutarea în van a adevărului în bine ca să ne putem întinde brațele către Mântuitor.',
-
+//
 	'438. Dacă omul nu este făcut pentru Dumnezeu, de ce este fericit numai întru Dumnezeu? Dacă omul este făcut pentru Dumnezeu, de ce este el atât de opus lui Dumnezeu?',
 	'439. Natura stricată. Omul nu acționează prin rațiune care constituie ființa lui',
 	'454. Injustiția. Nu s-au descoperit alte mijloace pentru satisfacerea depravării fără a le face rău altora.',
@@ -95,14 +95,13 @@ var quotes = [
 	'534. Există doar două feluri de oameni dreptcredincioși: credincioșii care se cred pe ei înșiși păcătoși; restul, păcătoși care se cred pe ei înșiși dreptcredincioși.',
 	'541. Nimeni nu este atât de fericit ca un creștin adevărat, nici atât de rațional, virtuos sau prietenos.',
 	'549. Nu este imposibil, ci și inutil să-l cunoști pe Dumnezeu fără Iisus Hristos.',
-	'',
-
+//
 	'558. Ce vom putea concluziona din întunericul nostru, dacă nu nevrednicia noastră?',
 	'580. Natura are perfecțiuni pe care să le arate ca dovadă că este imaginea lui Dumnezeu; și unele defecte care să arate că nu este decât o imagine.',
-
+//
 	'590. Omul trebuie să fie sincer în toate religiile; devărații păgâni, adevărații evrei, adevărații creșstini.',
 	'600. Oricare om poate să facă ce a făcut Mahomed; căci el nu a făcut niciun miracol, iar venirea lui nu a fost proorocită. Nimeni nu poate să facă ce a făcut Iisus Hristos.',
-	
+//	
 	'664. Model. Dumnezeu s-a folosit de depravarea evreilor ca să-i dea lui Iisus Hristos mijloacele care le-a adus remediul pentru depravarea lor.',
 	'671. Evreii care au fost chemați să supună popoare și regi, au fost sclavii păcatului; și creștinii, a căror chemare a fost să fie slujitori și supuși, sunt copii liberi.',
 	'698. Sinagoga a precedat biserica; evreii, pe creștini. Profeții au anunțat creștinii; Sfântul Ioan pe Iisus Hristos',
@@ -110,16 +109,16 @@ var quotes = [
 	'707. Profeții. Momentul, profețit de starea poporului evreu, de starea străinilor, de starea templului, de numărul anilor.',
 	'717. Profeții. Promisiunea cu David va avea întotdeauna urmași.(Ieremia, 13-13)',
 	'725. Profeții. Convertirea egiptenilor(Isaia, 19-19); un altar în Ecgipt pentru Dumnezeu cel adevărat.',
-
+//
 	'739. Profeții au poruncit neproorociți. Sfinții au fost proorociți, însă nu au făcut profeții. Iisus a și profețit, a și fost profețit.',
 	'748. În vremea Mesiei, oamenii s-au împărțit. Cei spirituali, L-au îmbrățisat pe Mesia și cei cu mințile mai brute au rămas să slujească drept martori ai Lui.',
 	'764. Biserica a avut dificultăți la fel de mari să arate că Iisus Hristos a fost om, împotriva celor care negau acest lucru, ca și pentru a dovedi că El era Dumnezeu; și probabilitățile erau la fel de mari.',
 	'774. Iisus Hristos pentru totți, Moise pentru o seminție.',
 	'784. Iisus Hristos nu a vrut mărturia diavolilor, nici a celor care nu fuseseră chemați, ci pe a lui Dumnezeu și a lui Ioan Botezătorul.',
 	'796. Iisus Hristos nu spune că El nu este din Nazaret, ca să-i lase pe cei răi în orbirea lor; nici că este fiul lui Iosif',
-
+//
 	'805. Cele două reguli fundamentale; una interioară, cealaltă exterioară; grația divină și minunile; ambele supranaturale.',
-	'806. Minunile și adevărul sunt necesare, deoarece este necesar să convingi omul pe de-a întregul, trup și minte.'
+	'806. Minunile și adevărul sunt necesare, deoarece este necesar să convingi omul pe de-a întregul, trup și minte.',
 	'807. În toate timpurile, fie omul a vorbit cu Dumnezeu, fie Dumnezeu a vorbit cu omul.',
 	'811. Dacă nu ar fi existat minunile, nu ar fi existat păcatul să nu se creadă în Iisus Hristos',
 	'812. Ar trebui "Să nu fiu creștin, dacă n-ar fi fost minunile", a spus Sfântul Augustin.',
@@ -129,19 +128,20 @@ var quotes = [
 	'831. Cele cinci afirmații erau ambigue; nu mai sunt astfel.',
 	'837. Că trebuie să-l iubim numai pe Dumnezeu este un lcuru atât de evident încât nu este nevoie de minuni ca să fie dovedit.',
 	'855. Oamenii cred în minuni. Corupi religia ori în favoare prietenilor, ori împotriva dușmanilor. O așezi după voia ta.',
-
+//
 	'858. Istoria bisericii ar trebui să se numească pe drept cuvânt istoria adevărului.',
 	'859. E bine să fii corabie în furtună, când ești sigur că nu te scufunzi. Persecuțiile care tulbură biserica de acest fel sunt.',
 	'861. Biserica se află într-o stare excelentă când este sprijinită numai de Dumnezeu.',
 	'863. Cu toții greșesc cu atât mai periculos, cu cât urmează fiecare un singur adevăr. Greșeala lor nu stă în urmarea unui fals, ci în neurmarea unui alt adevăr.',
 	'883. Răii care m-au obligat să vorbesc despre bazele religiei.',
 	'895. Oamenii nu fac niciodată răul atât de complet și de bucuroși ca atunci când îl fac din convingerea religioasă.',
-	'896. Este în zadar că biserica a stabilit cuvintele anatemă, erezie etc. sunt folostie împotriva ei.'.,
+	'896. Este în zadar că biserica a stabilit cuvintele anatemă, erezie etc. sunt folostie împotriva ei.',
 	'900. Cel care spune care e semnificația Scriptuirlor și nu o ia din Scripturi, este un dușman al Scriptuirlor.(Sfântul Augustin, Despre doctrica creștină).',
 	'913. Probabilitatea. Oricine o poate folosi; nimeni nu o poate lua.',
 	'914. Îi permit desfrâului să acționeze și controlează scrupulele; când de fapt ar trebui să fie invers.',
 	'918. Îndepărtează probabilitatea și nu mai poți face pe plac lumii; dă-i siguranță și nu mai poți să nu-i fii pe plac.',
-	'923. Nu numai iertarea păcatelor alungă păcatele prin taina pentenței, ci căinț, care nu este adevărată dacă nu caută taina.',
+	'923. Nu numai iertarea păcatelor alungă păcatele prin taina pentenței, ci căinț, care nu este adevărată dacă nu caută taina.'
+
 ]
 
 function newQuote()
