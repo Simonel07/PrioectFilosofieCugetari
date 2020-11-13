@@ -1,12 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;400&display=swap');
 body{
-  background-image: url('BackgroundAcasa.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-  padding-bottom: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: Times;
 }
 
 *{
@@ -23,6 +20,56 @@ body{
   margin-top: 0px;
 }*/
 
+#image_1{
+  background-image: url('BackgroundAcasa.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+#image_2 {
+  background-image: url('Background3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+.arrow{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
 #fixed {
   display: block;
   position: fixed;
@@ -66,25 +113,63 @@ body{
 }
 
 #quoteTitle {
-  margin-top: 10%;
   color: white;
+  text-align: center;
+  padding: 15% 0% 2%;
+  font-size: 50px;
 }
 
 #quoteDisplay {
-  margin-top: 3%;
   color: white;
   text-align: center;
+  padding: 10% 0% 10%;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0% 10%;
 }
 
 #buttonQuote {
   border: none;
-  padding: 20px;
+  padding: 2%;
   text-align: center;
   text-decoration: none;
   display: block;
-  margin: 4px 2px;
+  margin: 10px 2px;
   cursor: pointer;
   border-radius: 100%;
-  margin-left: 47%;
-  margin-right: 47%;
+  margin: auto;
+  background-color: #1aff66;
+  color: #003380;
+}
+
+#startQuote {
+  padding: 20% 0% 0%;
+  text-align: center;
+  text-shadow: 5px 5px #1a3300;
+  color: #99ff33;
+  font-size: 80px;
+  font-family: 'Big Shoulders Stencil Text';
+  font-style: italic;
+}
+
+#quoteAuthor {
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 25%;
+  margin-bottom: 17%;
+  font-family: 'Big Shoulders Stencil Text';
+  font-style: italic;
+  color: #3366ff;
+  text-shadow: 5px 5px #000033;
+  font-size: 40px;
+  padding-top: 2%;
+}
+
+:root:: -webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
 }

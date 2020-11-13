@@ -11,6 +11,15 @@ body{
     box-sizing: border-box;
 }
 
+:root:: -webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
 /*header{
   display: block;
   background: black;
@@ -37,7 +46,7 @@ body{
 
 .content {
   border-radius: 10px;
-  margin: 0;
+  margin: 0; 
   margin-top: 30px;
   padding: 0;
   color: white;
