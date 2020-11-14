@@ -37,7 +37,7 @@ body{
 
 .arrow{
     position: absolute;
-    top: 90%;
+    top: 90vh;
     left: 50%;
     transform: translate(-50%,-50%);
 }
