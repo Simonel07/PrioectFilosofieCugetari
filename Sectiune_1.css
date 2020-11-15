@@ -145,10 +145,11 @@ body{
 
 .arrow{
     position: absolute;
-    top: 90%;
-    left: 50%;
+    margin-top: 10%;
+    margin-left: 0%;
     transform: translate(-50%,-50%);
 }
+
 .arrow span{
     display: block;
     width: 30px;
