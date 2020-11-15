@@ -145,8 +145,8 @@ body{
 
 .arrow{
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 10%;
+    left: 20%;
     transform: translate(-50%,-50%);
 }
 .arrow span{
