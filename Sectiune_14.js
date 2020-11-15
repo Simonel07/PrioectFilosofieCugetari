@@ -10,7 +10,7 @@ var quotes = [
 	'913. Probabilitatea. Oricine o poate folosi; nimeni nu o poate lua.',
 	'914. Îi permit desfrâului să acționeze și controlează scrupulele; când de fapt ar trebui să fie invers.',
 	'918. Îndepărtează probabilitatea și nu mai poți face pe plac lumii; dă-i siguranță și nu mai poți să nu-i fii pe plac.',
-	'923. Nu numai iertarea păcatelor alungă păcatele prin taina pentenței, ci căinț, care nu este adevărată dacă nu caută taina.'
+	'923. Nu numai iertarea păcatelor alungă păcatele prin taina pentenței, ci căința, care nu este adevărată dacă nu caută taina.'
 
 ]
 

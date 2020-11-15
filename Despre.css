@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100;400&display=swap');
 body{
-  background-image: url('BackgroundAcasa.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-  padding-bottom: 0;
+  background-color: #e6ffe6;
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: Times;
 }
 
 *{
@@ -23,6 +21,58 @@ body{
   margin-top: 0px;
 }*/
 
+#image_1{
+  background-image: url('BackgroundAcasa.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+#image_2 {
+  display: block;
+  background-image: url('Background3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+.arrow{
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
 #fixed {
   display: block;
   position: fixed;
@@ -33,6 +83,7 @@ body{
 }
 
 .MenuBarUL {
+  z-index: 1;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -50,10 +101,11 @@ body{
 }
 
 #MenuBar a {
+  font-size: 20px;
   display: block;
   color: white;
   text-align: center;
-  padding: 5% 16px;
+  padding: 2% 16px;
   text-decoration: none;
 }
 
@@ -63,4 +115,115 @@ body{
 
 .active {
   background-color: #4CAF50;
+}
+
+#image_2 p {
+  margin: 10px;
+  padding: 20px;
+  color: #99ff33;
+  text-align: center;
+  font-style: bold;
+  font-size: 20px;
+}
+
+
+#startQuote {
+  padding: 20% 0% 0%;
+  text-align: center;
+  text-shadow: 5px 5px #1a3300;
+  color: #99ff33;
+  font-size: 80px;
+  font-family: 'Big Shoulders Stencil Text';
+  font-style: italic;
+}
+
+#quoteAuthor {
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 25%;
+  margin-bottom: 17%;
+  font-family: 'Big Shoulders Stencil Text';
+  font-style: italic;
+  color: #3366ff;
+  text-shadow: 5px 5px #000033;
+  font-size: 40px;
+  padding-top: 2%;
+}
+
+:root:: -webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
+
+#text {
+  display: block;
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+  color: #535353;
+  font-size: 20px;
+}
+
+#intrebare {
+  font-style: italic;
+  font-size: 40px;
+  color: #535353;
+  display: block;
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto 50px auto;
+  line-height: 1.6; 
+}
+
+#cards {
+  z-index: 0;
+  background-color: #e6ffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #cceeff;
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #bfbfbf;
+  transition: 0.3s;
+  width: 40%;
+  margin: 2% 30%;
+  padding: 5px;
+  transition: all 0.2s ease-out;
+  border:1px solid #000000;
+}
+
+.card:hover {
+  background-color: #66ccff;
+  box-shadow: 0 8px 16px 0 #595959;
+  right: -4px;
+  top: -4px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+#button {
+  background-color: transparent;
+  border: none;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+#titluCards {
+  z-index: 0;
+  background-color: #e6ffff;
+  font-size: 30px;
+  text-align: center;
+  font-style: bold;
 }
